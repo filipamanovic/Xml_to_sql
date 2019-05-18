@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<fixtures_fixture>
+	<fixture id="sr:match:14743165" liveodds="not_available" next_live_time="2018-06-16T09:30:00+00:00" scheduled="2018-06-16T09:30:00+00:00" start_time="2018-06-16T09:30:00+00:00" start_time_confirmed="true" start_time_tbd="false" status="closed">
+		<tournament_round betradar_id="65825" name="semifinal" type="cup"/>
+		<season end_date="2018-06-17" id="sr:season:49003" name="2018 ATP Stuttgart, Germany Men Double" start_date="2018-06-11" tournament_id="sr:tournament:2777" year="2018"/>
+		<tournament id="sr:tournament:2777" name="ATP Stuttgart, Germany Men Double">
+			<sport id="sr:sport:5" name="Tennis"/>
+			<category id="sr:category:3" name="ATP"/>
+		</tournament>
+		<competitors>
+			<competitor abbreviation="LIN" gender="male" id="sr:competitor:167478" name="Lindstedt R / Matkowski M" qualifier="home">
+				<reference_ids>
+					<reference_id name="betradar" value="7369437"/>
+				</reference_ids>
+				<players>
+					<player abbreviation="LIN" id="sr:competitor:14900" name="Lindstedt, Robert" nationality="Sweden"/>
+					<player abbreviation="MAT" id="sr:competitor:15361" name="Matkowski, Marcin" nationality="Poland"/>
+				</players>
+			</competitor>
+			<competitor abbreviation="FUC" gender="male" id="sr:competitor:447997" name="Fucsovics M / Zverev M" qualifier="away">
+				<reference_ids>
+					<reference_id name="betradar" value="10976365"/>
+				</reference_ids>
+				<players>
+					<player abbreviation="ZVE" id="sr:competitor:16011" name="Zverev, Mischa" nationality="Germany"/>
+					<player abbreviation="FUC" id="sr:competitor:47770" name="Fucsovics, Marton" nationality="Hungary"/>
+				</players>
+			</competitor>
+		</competitors>
+		<venue city_name="Stuttgart" country_code="DEU" country_name="Germany" id="sr:venue:1765" name="Center Court"/>
+		<extra_info>
+			<info key="neutral_ground" value="true"/>
+			<info key="best_of" value="3"/>
+			<info key="super_tiebreak" value="10"/>
+			<info key="surface" value="grass"/>
+			<info key="coverage_source" value="tv"/>
+			<info key="extended_live_markets_offered" value="false"/>
+		</extra_info>
+		<product_info>
+			<is_in_live_score/>
+			<is_in_hosted_statistics/>
+			<links>
+				<link name="live_match_tracker" ref="https://cs.betradar.com/ls/widgets/?/betradar/en/Europe:Berlin/page/show#widget=widgets.lmts&amp;matchId=14743165"/>
+			</links>
+		</product_info>
+		<reference_ids>
+			<reference_id name="BetradarCtrl" value="15417766"/>
+		</reference_ids>
+	</fixture>
+</fixtures_fixture>

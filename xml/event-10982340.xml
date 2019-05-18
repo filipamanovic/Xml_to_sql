@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<fixtures_fixture>
+	<fixture id="sr:match:10982340" liveodds="not_available" next_live_time="2017-09-23T14:00:00+00:00" scheduled="2017-09-23T14:00:00+00:00" start_time="2017-09-23T14:00:00+00:00" start_time_confirmed="true" start_time_tbd="false" status="closed">
+		<tournament_round betradar_id="27" group_long_name="Superettan" number="25" type="group"/>
+		<season end_date="2017-11-20" id="sr:season:38816" name="Superettan 2017" start_date="2017-04-01" tournament_id="sr:tournament:46" year="2017"/>
+		<tournament id="sr:tournament:46" name="Superettan">
+			<sport id="sr:sport:1" name="Soccer"/>
+			<category country_code="SWE" id="sr:category:9" name="Sweden"/>
+		</tournament>
+		<competitors>
+			<competitor abbreviation="BRO" country="Sweden" country_code="SWE" gender="male" id="sr:competitor:1787" name="IF Brommapojkarna" qualifier="home">
+				<reference_ids>
+					<reference_id name="betradar" value="95494"/>
+				</reference_ids>
+			</competitor>
+			<competitor abbreviation="ATV" country="Sweden" country_code="SWE" gender="male" id="sr:competitor:1789" name="Aatvidaberg FF" qualifier="away">
+				<reference_ids>
+					<reference_id name="betradar" value="5267"/>
+					<reference_id name="aams" value="1789"/>
+				</reference_ids>
+			</competitor>
+		</competitors>
+		<venue capacity="5500" city_name="Stockholm" country_code="SWE" country_name="Sweden" id="sr:venue:865" map_coordinates="59.362144,17.853415" name="Grimsta IP"/>
+		<extra_info>
+			<info key="neutral_ground" value="false"/>
+			<info key="period_length" value="45"/>
+			<info key="overtime_length" value="15"/>
+			<info key="coverage_source" value="venue"/>
+			<info key="extended_live_markets_offered" value="false"/>
+		</extra_info>
+		<coverage_info level="bronze" live_coverage="false">
+			<coverage includes="basic_score"/>
+		</coverage_info>
+		<product_info>
+			<is_in_hosted_statistics/>
+		</product_info>
+		<reference_ids>
+			<reference_id name="BetradarCtrl" value="13501173"/>
+		</reference_ids>
+	</fixture>
+</fixtures_fixture>

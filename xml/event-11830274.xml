@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<fixtures_fixture>
+	<fixture id="sr:match:11830274" liveodds="not_available" next_live_time="2017-09-23T14:00:00+00:00" scheduled="2017-09-23T14:00:00+00:00" start_time="2017-09-23T14:00:00+00:00" start_time_confirmed="true" start_time_tbd="false" status="closed">
+		<tournament_round betradar_id="1" group_long_name="Premier League" number="6" phase="regular season" type="group"/>
+		<season end_date="2018-05-14" id="sr:season:40942" name="Premier League 17/18" start_date="2017-08-11" tournament_id="sr:tournament:17" year="17/18"/>
+		<tournament id="sr:tournament:17" name="Premier League">
+			<sport id="sr:sport:1" name="Soccer"/>
+			<category country_code="ENG" id="sr:category:1" name="England"/>
+		</tournament>
+		<competitors>
+			<competitor abbreviation="EVE" country="England" country_code="ENG" gender="male" id="sr:competitor:48" name="Everton FC" qualifier="home">
+				<reference_ids>
+					<reference_id name="betradar" value="4867"/>
+					<reference_id name="aams" value="48"/>
+				</reference_ids>
+			</competitor>
+			<competitor abbreviation="BOU" country="England" country_code="ENG" gender="male" id="sr:competitor:60" name="AFC Bournemouth" qualifier="away">
+				<reference_ids>
+					<reference_id name="betradar" value="7007384"/>
+					<reference_id name="aams" value="60"/>
+				</reference_ids>
+			</competitor>
+		</competitors>
+		<venue capacity="39571" city_name="Liverpool" country_code="ENG" country_name="England" id="sr:venue:12" map_coordinates="53.439255,-2.967065" name="Goodison Park"/>
+		<extra_info>
+			<info key="neutral_ground" value="false"/>
+			<info key="period_length" value="45"/>
+			<info key="overtime_length" value="15"/>
+			<info key="coverage_source" value="tv"/>
+			<info key="extended_live_markets_offered" value="false"/>
+		</extra_info>
+		<coverage_info covered_from="tv" level="platinum" live_coverage="true">
+			<coverage includes="basic_score"/>
+			<coverage includes="key_events"/>
+			<coverage includes="detailed_events"/>
+			<coverage includes="lineups"/>
+			<coverage includes="passes_and_duels"/>
+			<coverage includes="commentary"/>
+			<coverage includes="extended_markets"/>
+		</coverage_info>
+		<product_info>
+			<is_in_hosted_statistics/>
+		</product_info>
+		<reference_ids>
+			<reference_id name="BetradarCtrl" value="13276481"/>
+		</reference_ids>
+	</fixture>
+</fixtures_fixture>

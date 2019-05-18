@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<fixtures_fixture>
+	<fixture id="sr:match:12584114" liveodds="not_available" next_live_time="2017-09-23T14:25:00+00:00" scheduled="2017-09-23T14:25:00+00:00" start_time="2017-09-23T14:25:00+00:00" start_time_confirmed="true" start_time_tbd="false" status="closed">
+		<tournament_round betradar_id="58180" name="round_of_32" type="cup"/>
+		<season end_date="2017-09-25" id="sr:season:53734" name="Pdc European Tour - International Darts Open 2017" start_date="2017-09-22" tournament_id="sr:tournament:24429" year="2017"/>
+		<tournament id="sr:tournament:24429" name="PDC European Tour - International Darts Open">
+			<sport id="sr:sport:22" name="Darts"/>
+			<category id="sr:category:104" name="International"/>
+		</tournament>
+		<competitors>
+			<competitor abbreviation="CUL" gender="male" id="sr:competitor:35969" name="Cullen, Joe" qualifier="home">
+				<reference_ids>
+					<reference_id name="betradar" value="1269069"/>
+				</reference_ids>
+			</competitor>
+			<competitor abbreviation="COR" gender="male" id="sr:competitor:245551" name="Corner, Richie" qualifier="away">
+				<reference_ids>
+					<reference_id name="betradar" value="1269061"/>
+				</reference_ids>
+			</competitor>
+		</competitors>
+		<extra_info>
+			<info key="neutral_ground" value="true"/>
+			<info key="coverage_source" value="venue"/>
+			<info key="extended_live_markets_offered" value="false"/>
+			<info key="draw_possible" value="false"/>
+			<info key="best_of_legs" value="11"/>
+		</extra_info>
+		<product_info>
+			<streaming>
+				<channel id="3" name="Live Channel Online LIVE Match"/>
+			</streaming>
+			<is_in_hosted_statistics/>
+		</product_info>
+		<reference_ids>
+			<reference_id name="BetradarCtrl" value="13848759"/>
+		</reference_ids>
+	</fixture>
+</fixtures_fixture>

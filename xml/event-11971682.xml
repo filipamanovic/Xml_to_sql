@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<fixtures_fixture>
+	<fixture id="sr:match:11971682" liveodds="not_available" next_live_time="2017-09-23T15:00:00+00:00" scheduled="2017-09-23T15:00:00+00:00" start_time="2017-09-23T15:00:00+00:00" start_time_confirmed="true" start_time_tbd="false" status="closed">
+		<tournament_round betradar_id="52" group_long_name="Primeira Liga" number="7" type="group"/>
+		<season end_date="2018-05-31" id="sr:season:41988" name="Primeira Liga 17/18" start_date="2017-08-05" tournament_id="sr:tournament:238" year="17/18"/>
+		<tournament id="sr:tournament:238" name="Primeira Liga">
+			<sport id="sr:sport:1" name="Soccer"/>
+			<category country_code="PRT" id="sr:category:44" name="Portugal"/>
+		</tournament>
+		<competitors>
+			<competitor abbreviation="EST" country="Portugal" country_code="PRT" gender="male" id="sr:competitor:4500" name="GD Estoril Praia" qualifier="home">
+				<reference_ids>
+					<reference_id name="betradar" value="377345"/>
+					<reference_id name="aams" value="4500"/>
+				</reference_ids>
+			</competitor>
+			<competitor abbreviation="CHA" country="Portugal" country_code="PRT" gender="male" id="sr:competitor:3025" name="GD Chaves" qualifier="away">
+				<reference_ids>
+					<reference_id name="betradar" value="7350303"/>
+				</reference_ids>
+			</competitor>
+		</competitors>
+		<venue capacity="8000" city_name="Estoril" country_code="PRT" country_name="Portugal" id="sr:venue:5326" map_coordinates="38.715852,-9.406409" name="Estadio Antonio Coimbra Da Mota"/>
+		<extra_info>
+			<info key="neutral_ground" value="false"/>
+			<info key="period_length" value="45"/>
+			<info key="overtime_length" value="15"/>
+			<info key="coverage_source" value="tv"/>
+			<info key="extended_live_markets_offered" value="false"/>
+		</extra_info>
+		<coverage_info level="bronze" live_coverage="false">
+			<coverage includes="basic_score"/>
+		</coverage_info>
+		<product_info>
+			<is_in_hosted_statistics/>
+		</product_info>
+		<reference_ids>
+			<reference_id name="BetradarCtrl" value="13501207"/>
+		</reference_ids>
+	</fixture>
+</fixtures_fixture>

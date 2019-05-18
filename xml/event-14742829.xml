@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<fixtures_fixture>
+	<fixture id="sr:match:14742829" liveodds="not_available" next_live_time="2018-06-16T08:00:00+00:00" scheduled="2018-06-16T08:00:00+00:00" start_time="2018-06-16T08:00:00+00:00" start_time_confirmed="true" start_time_tbd="false" status="closed">
+		<tournament_round betradar_id="71227" name="final" type="cup"/>
+		<season end_date="2018-06-16" id="sr:season:54271" name="2018 Itf Zimbabwe F3, Men Singles" start_date="2018-06-09" tournament_id="sr:tournament:19004" year="2018"/>
+		<tournament id="sr:tournament:19004" name="ITF Zimbabwe F3, Men Singles">
+			<sport id="sr:sport:5" name="Tennis"/>
+			<category id="sr:category:785" name="ITF Men"/>
+		</tournament>
+		<competitors>
+			<competitor abbreviation="LOC" country="Zimbabwe" country_code="ZWE" gender="male" id="sr:competitor:96859" name="Lock, Benjamin" qualifier="home">
+				<reference_ids>
+					<reference_id name="betradar" value="6634932"/>
+				</reference_ids>
+			</competitor>
+			<competitor abbreviation="GAR" country="Zimbabwe" country_code="ZWE" gender="male" id="sr:competitor:46621" name="Garanganga, Takanyi" qualifier="away">
+				<reference_ids>
+					<reference_id name="betradar" value="1112358"/>
+				</reference_ids>
+			</competitor>
+		</competitors>
+		<venue city_name="Harare" country_code="ZWE" country_name="Zimbabwe" id="sr:venue:29814" name="Center Court"/>
+		<extra_info>
+			<info key="neutral_ground" value="true"/>
+			<info key="best_of" value="3"/>
+			<info key="surface" value="hardcourt_outdoor"/>
+			<info key="coverage_source" value="venue"/>
+			<info key="extended_live_markets_offered" value="false"/>
+		</extra_info>
+		<product_info>
+			<is_in_live_score/>
+			<is_in_hosted_statistics/>
+			<links>
+				<link name="live_match_tracker" ref="https://cs.betradar.com/ls/widgets/?/betradar/en/Europe:Berlin/page/show#widget=widgets.lmts&amp;matchId=14742829"/>
+			</links>
+		</product_info>
+		<reference_ids>
+			<reference_id name="BetradarCtrl" value="15417173"/>
+		</reference_ids>
+	</fixture>
+</fixtures_fixture>

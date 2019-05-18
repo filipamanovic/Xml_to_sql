@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<fixtures_fixture>
+	<fixture id="sr:match:12299608" liveodds="not_available" next_live_time="2017-09-23T15:00:00+00:00" scheduled="2017-09-23T15:00:00+00:00" start_time="2017-09-23T15:00:00+00:00" start_time_confirmed="true" start_time_tbd="false" status="ended">
+		<tournament_round betradar_id="22805" group_long_name="Federation Cup" number="1" type="group"/>
+		<tournament id="sr:simple_tournament:22805" name="Federation Cup">
+			<sport id="sr:sport:2" name="Basketball"/>
+			<category country_code="TUR" id="sr:category:112" name="Turkey"/>
+		</tournament>
+		<competitors>
+			<competitor abbreviation="DUZ" country="Turkey" country_code="TUR" gender="male" id="sr:competitor:400337" name="Duzce Belediye" qualifier="home">
+				<reference_ids>
+					<reference_id name="betradar" value="9119260"/>
+				</reference_ids>
+			</competitor>
+			<competitor abbreviation="BAK" country="Turkey" country_code="TUR" gender="male" id="sr:competitor:370520" name="Bahcesehir Okullari" qualifier="away">
+				<reference_ids>
+					<reference_id name="betradar" value="10070906"/>
+				</reference_ids>
+			</competitor>
+		</competitors>
+		<extra_info>
+			<info key="neutral_ground" value="false"/>
+			<info key="period_length" value="10"/>
+			<info key="overtime_length" value="5"/>
+			<info key="coverage_source" value="venue"/>
+			<info key="extended_live_markets_offered" value="false"/>
+		</extra_info>
+		<reference_ids>
+			<reference_id name="BetradarCtrl" value="13652728"/>
+		</reference_ids>
+	</fixture>
+</fixtures_fixture>

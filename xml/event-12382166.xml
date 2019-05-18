@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<fixtures_fixture>
+	<fixture id="sr:match:12382166" liveodds="not_available" next_live_time="2017-09-23T14:00:00+00:00" scheduled="2017-09-23T14:00:00+00:00" start_time="2017-09-23T14:00:00+00:00" start_time_confirmed="true" start_time_tbd="false" status="closed">
+		<tournament_round betradar_id="108" group_long_name="Liiga" number="1" type="group"/>
+		<season end_date="2018-04-30" id="sr:season:44670" name="Liiga 17/18" start_date="2017-09-08" tournament_id="sr:tournament:134" year="17/18"/>
+		<tournament id="sr:tournament:134" name="Liiga">
+			<sport id="sr:sport:4" name="Ice Hockey"/>
+			<category country_code="FIN" id="sr:category:40" name="Finland"/>
+		</tournament>
+		<competitors>
+			<competitor abbreviation="JYP" country="Finland" country_code="FIN" gender="male" id="sr:competitor:3842" name="JYP Jyvaskyla" qualifier="home">
+				<reference_ids>
+					<reference_id name="betradar" value="7351"/>
+					<reference_id name="aams" value="3842"/>
+				</reference_ids>
+			</competitor>
+			<competitor abbreviation="TPS" country="Finland" country_code="FIN" gender="male" id="sr:competitor:3836" name="TPS Turku" qualifier="away">
+				<reference_ids>
+					<reference_id name="betradar" value="7355"/>
+				</reference_ids>
+			</competitor>
+		</competitors>
+		<venue capacity="4618" city_name="Jyvaskyla" country_code="FIN" country_name="Finland" id="sr:venue:23464" map_coordinates="60.162818,24.536494" name="Lahitapiola Areena"/>
+		<extra_info>
+			<info key="neutral_ground" value="false"/>
+			<info key="period_length" value="20"/>
+			<info key="overtime_length" value="5"/>
+			<info key="coverage_source" value="tv"/>
+			<info key="extended_live_markets_offered" value="false"/>
+		</extra_info>
+		<product_info>
+			<is_in_hosted_statistics/>
+		</product_info>
+		<reference_ids>
+			<reference_id name="BetradarCtrl" value="13699970"/>
+		</reference_ids>
+	</fixture>
+</fixtures_fixture>

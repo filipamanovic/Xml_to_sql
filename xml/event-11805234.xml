@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<fixtures_fixture>
+	<fixture id="sr:match:11805234" liveodds="not_available" next_live_time="2017-09-23T13:30:00+00:00" scheduled="2017-09-23T13:30:00+00:00" start_time="2017-09-23T13:30:00+00:00" start_time_confirmed="true" start_time_tbd="false" status="closed">
+		<tournament_round betradar_id="64" group_long_name="Ekstraklasa" number="10" type="group"/>
+		<season end_date="2018-06-18" id="sr:season:40902" name="Ekstraklasa 17/18" start_date="2017-07-14" tournament_id="sr:tournament:202" year="17/18"/>
+		<tournament id="sr:tournament:202" name="Ekstraklasa">
+			<sport id="sr:sport:1" name="Soccer"/>
+			<category country_code="POL" id="sr:category:47" name="Poland"/>
+		</tournament>
+		<competitors>
+			<competitor abbreviation="NIE" country="Poland" country_code="POL" gender="male" id="sr:competitor:36851" name="Termalica Bruk-Bet Nieciecza" qualifier="home">
+				<reference_ids>
+					<reference_id name="betradar" value="7329691"/>
+					<reference_id name="aams" value="36851"/>
+				</reference_ids>
+			</competitor>
+			<competitor abbreviation="LEC" country="Poland" country_code="POL" gender="male" id="sr:competitor:7913" name="KS Lechia Gdansk" qualifier="away">
+				<reference_ids>
+					<reference_id name="betradar" value="1296763"/>
+					<reference_id name="aams" value="7913"/>
+				</reference_ids>
+			</competitor>
+		</competitors>
+		<venue capacity="4595" city_name="Nieciecza" country_code="POL" country_name="Poland" id="sr:venue:12059" map_coordinates="50.158343,20.849154" name="Stadion Bruk-Bet"/>
+		<extra_info>
+			<info key="neutral_ground" value="false"/>
+			<info key="period_length" value="45"/>
+			<info key="overtime_length" value="15"/>
+			<info key="coverage_source" value="tv"/>
+			<info key="extended_live_markets_offered" value="false"/>
+		</extra_info>
+		<coverage_info level="bronze" live_coverage="false">
+			<coverage includes="basic_score"/>
+		</coverage_info>
+		<product_info>
+			<is_in_hosted_statistics/>
+		</product_info>
+		<reference_ids>
+			<reference_id name="BetradarCtrl" value="13496101"/>
+		</reference_ids>
+	</fixture>
+</fixtures_fixture>

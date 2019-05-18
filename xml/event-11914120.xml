@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<fixtures_fixture>
+	<fixture id="sr:match:11914120" liveodds="not_available" next_live_time="2017-09-23T13:30:00+00:00" scheduled="2017-09-23T13:30:00+00:00" start_time="2017-09-23T13:30:00+00:00" start_time_confirmed="true" start_time_tbd="false" status="closed">
+		<tournament_round betradar_id="42" group_long_name="Bundesliga" number="6" phase="regular season" type="group"/>
+		<season end_date="2018-05-22" id="sr:season:41576" name="Bundesliga 17/18" start_date="2017-08-18" tournament_id="sr:tournament:35" year="17/18"/>
+		<tournament id="sr:tournament:35" name="Bundesliga">
+			<sport id="sr:sport:1" name="Soccer"/>
+			<category country_code="DEU" id="sr:category:30" name="Germany"/>
+		</tournament>
+		<competitors>
+			<competitor abbreviation="SVW" country="Germany" country_code="DEU" gender="male" id="sr:competitor:2534" name="Werder Bremen" qualifier="home">
+				<reference_ids>
+					<reference_id name="betradar" value="5093"/>
+					<reference_id name="aams" value="2534"/>
+				</reference_ids>
+			</competitor>
+			<competitor abbreviation="SCF" country="Germany" country_code="DEU" gender="male" id="sr:competitor:2538" name="SC Freiburg" qualifier="away">
+				<reference_ids>
+					<reference_id name="betradar" value="4898"/>
+				</reference_ids>
+			</competitor>
+		</competitors>
+		<venue capacity="42100" city_name="Bremen" country_code="DEU" country_name="Germany" id="sr:venue:821" map_coordinates="53.066394,8.837628" name="Weserstadion"/>
+		<extra_info>
+			<info key="neutral_ground" value="false"/>
+			<info key="period_length" value="45"/>
+			<info key="overtime_length" value="15"/>
+			<info key="coverage_source" value="tv"/>
+			<info key="extended_live_markets_offered" value="false"/>
+			<info key="streaming" value="true"/>
+		</extra_info>
+		<coverage_info covered_from="tv" level="platinum" live_coverage="true">
+			<coverage includes="basic_score"/>
+			<coverage includes="key_events"/>
+			<coverage includes="detailed_events"/>
+			<coverage includes="lineups"/>
+			<coverage includes="passes_and_duels"/>
+			<coverage includes="commentary"/>
+			<coverage includes="extended_markets"/>
+		</coverage_info>
+		<product_info>
+			<streaming>
+				<channel id="1" name="Live Channel Retail LIVE Match"/>
+				<channel id="3" name="Live Channel Online LIVE Match"/>
+			</streaming>
+			<is_in_hosted_statistics/>
+		</product_info>
+		<reference_ids>
+			<reference_id name="BetradarCtrl" value="13446113"/>
+		</reference_ids>
+	</fixture>
+</fixtures_fixture>

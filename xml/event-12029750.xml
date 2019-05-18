@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<fixtures_fixture>
+	<fixture id="sr:match:12029750" liveodds="not_available" next_live_time="2017-09-23T15:00:00+00:00" scheduled="2017-09-23T15:00:00+00:00" start_time="2017-09-23T15:00:00+00:00" start_time_confirmed="true" start_time_tbd="false" status="closed">
+		<tournament_round betradar_id="54395" group_long_name="First Division B, First stage" number="7" phase="stage_1 no_stats" type="group"/>
+		<season end_date="2018-05-28" id="sr:season:42312" name="First Division B 17/18" start_date="2017-08-03" tournament_id="sr:tournament:9" year="17/18"/>
+		<tournament id="sr:tournament:9" name="First Division B">
+			<sport id="sr:sport:1" name="Soccer"/>
+			<category country_code="BEL" id="sr:category:33" name="Belgium"/>
+		</tournament>
+		<competitors>
+			<competitor abbreviation="CER" country="Belgium" country_code="BEL" gender="male" id="sr:competitor:2929" name="Cercle Brugge" qualifier="home">
+				<reference_ids>
+					<reference_id name="betradar" value="127641"/>
+				</reference_ids>
+			</competitor>
+			<competitor abbreviation="TUB" country="Belgium" country_code="BEL" gender="male" id="sr:competitor:2909" name="FC Tubize" qualifier="away">
+				<reference_ids>
+					<reference_id name="betradar" value="232187"/>
+				</reference_ids>
+			</competitor>
+		</competitors>
+		<venue capacity="29975" city_name="Bruges" country_code="BEL" country_name="Belgium" id="sr:venue:1187" map_coordinates="51.193272,3.180583" name="Jan Breydel Stadium"/>
+		<extra_info>
+			<info key="neutral_ground" value="false"/>
+			<info key="period_length" value="45"/>
+			<info key="overtime_length" value="15"/>
+			<info key="coverage_source" value="venue"/>
+			<info key="extended_live_markets_offered" value="false"/>
+		</extra_info>
+		<coverage_info level="bronze" live_coverage="false">
+			<coverage includes="basic_score"/>
+		</coverage_info>
+		<product_info>
+			<is_in_hosted_statistics/>
+		</product_info>
+		<reference_ids>
+			<reference_id name="BetradarCtrl" value="13495722"/>
+		</reference_ids>
+	</fixture>
+</fixtures_fixture>

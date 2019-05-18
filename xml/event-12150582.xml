@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<fixtures_fixture>
+	<fixture id="sr:match:12150582" liveodds="not_available" next_live_time="2017-09-23T14:30:00+00:00" scheduled="2017-09-23T14:30:00+00:00" start_time="2017-09-23T14:30:00+00:00" start_time_confirmed="true" start_time_tbd="false" status="closed">
+		<tournament_round betradar_id="4772" group_long_name="2. HNL" number="7" type="group"/>
+		<season end_date="2018-06-03" id="sr:season:42994" name="2. HNL 17/18" start_date="2017-08-18" tournament_id="sr:tournament:724" year="17/18"/>
+		<tournament id="sr:tournament:724" name="2. HNL">
+			<sport id="sr:sport:1" name="Soccer"/>
+			<category country_code="HRV" id="sr:category:14" name="Croatia"/>
+		</tournament>
+		<competitors>
+			<competitor abbreviation="SES" country="Croatia" country_code="HRV" gender="male" id="sr:competitor:54297" name="NK Radnik Sesvete" qualifier="home">
+				<reference_ids>
+					<reference_id name="betradar" value="5816731"/>
+				</reference_ids>
+			</competitor>
+			<competitor abbreviation="DUG" country="Croatia" country_code="HRV" gender="male" id="sr:competitor:43918" name="NK Dugopolje" qualifier="away">
+				<reference_ids>
+					<reference_id name="betradar" value="5521512"/>
+				</reference_ids>
+			</competitor>
+		</competitors>
+		<venue capacity="1200" city_name="Sesvete" country_code="HRV" country_name="Croatia" id="sr:venue:3459" map_coordinates="45.836133,16.117441" name="Stadion Sv. Josip Radnik"/>
+		<extra_info>
+			<info key="neutral_ground" value="false"/>
+			<info key="period_length" value="45"/>
+			<info key="overtime_length" value="15"/>
+			<info key="coverage_source" value="venue"/>
+			<info key="extended_live_markets_offered" value="false"/>
+		</extra_info>
+		<coverage_info level="bronze" live_coverage="false">
+			<coverage includes="basic_score"/>
+		</coverage_info>
+		<product_info>
+			<is_in_hosted_statistics/>
+		</product_info>
+		<reference_ids>
+			<reference_id name="BetradarCtrl" value="13547279"/>
+		</reference_ids>
+	</fixture>
+</fixtures_fixture>

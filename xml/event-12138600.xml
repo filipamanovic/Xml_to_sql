@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<fixtures_fixture>
+	<fixture id="sr:match:12138600" liveodds="not_available" next_live_time="2017-09-23T14:00:00+00:00" scheduled="2017-09-23T14:00:00+00:00" start_time="2017-09-23T14:00:00+00:00" start_time_confirmed="true" start_time_tbd="false" status="closed">
+		<tournament_round betradar_id="673" group_long_name="KHL" number="1" type="group"/>
+		<season end_date="2018-05-06" id="sr:season:42884" name="KHL 17/18" start_date="2017-08-21" tournament_id="sr:tournament:268" year="17/18"/>
+		<tournament id="sr:tournament:268" name="KHL">
+			<sport id="sr:sport:4" name="Ice Hockey"/>
+			<category country_code="RUS" id="sr:category:101" name="Russia"/>
+		</tournament>
+		<competitors>
+			<competitor abbreviation="SCH" country="Russia" country_code="RUS" gender="male" id="sr:competitor:3943" name="Severstal Cherepovets" qualifier="home">
+				<reference_ids>
+					<reference_id name="betradar" value="126392"/>
+				</reference_ids>
+			</competitor>
+			<competitor abbreviation="AVL" country="Russia" country_code="RUS" gender="male" id="sr:competitor:111039" name="Admiral Vladivostok" qualifier="away">
+				<reference_ids>
+					<reference_id name="betradar" value="6651779"/>
+				</reference_ids>
+			</competitor>
+		</competitors>
+		<venue capacity="6000" city_name="Cherepovets" country_code="RUS" country_name="Russia" id="sr:venue:5972" map_coordinates="59.089167,37.919556" name="Ice Palace"/>
+		<extra_info>
+			<info key="neutral_ground" value="false"/>
+			<info key="period_length" value="20"/>
+			<info key="overtime_length" value="5"/>
+			<info key="coverage_source" value="venue"/>
+			<info key="extended_live_markets_offered" value="false"/>
+		</extra_info>
+		<product_info>
+			<is_in_hosted_statistics/>
+		</product_info>
+		<reference_ids>
+			<reference_id name="BetradarCtrl" value="13537086"/>
+		</reference_ids>
+	</fixture>
+</fixtures_fixture>

@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<fixtures_fixture>
+	<fixture id="sr:match:12384158" liveodds="not_available" next_live_time="2017-09-23T13:30:00+00:00" scheduled="2017-09-23T13:30:00+00:00" start_time="2017-09-23T13:30:00+00:00" start_time_confirmed="true" start_time_tbd="false" status="closed">
+		<tournament_round betradar_id="6994" group_long_name="Urvalsdeild, Women" number="3" type="group"/>
+		<season end_date="2018-05-28" id="sr:season:44686" name="Urvalsdeild, Women 17/18" start_date="2017-09-10" tournament_id="sr:tournament:14325" year="17/18"/>
+		<tournament id="sr:tournament:14325" name="Urvalsdeild, Women">
+			<sport id="sr:sport:6" name="Handball"/>
+			<category country_code="ISL" id="sr:category:245" name="Iceland"/>
+		</tournament>
+		<competitors>
+			<competitor abbreviation="FRE" country="Iceland" country_code="ISL" gender="female" id="sr:competitor:46175" name="Fram Reykjavik" qualifier="home">
+				<reference_ids>
+					<reference_id name="betradar" value="1155947"/>
+				</reference_ids>
+			</competitor>
+			<competitor abbreviation="FJO" country="Iceland" country_code="ISL" gender="female" id="sr:competitor:372572" name="Fjolnir" qualifier="away">
+				<reference_ids>
+					<reference_id name="betradar" value="1167193"/>
+				</reference_ids>
+			</competitor>
+		</competitors>
+		<extra_info>
+			<info key="neutral_ground" value="false"/>
+			<info key="period_length" value="30"/>
+			<info key="overtime_length" value="5"/>
+			<info key="coverage_source" value="venue"/>
+			<info key="extended_live_markets_offered" value="false"/>
+		</extra_info>
+		<product_info>
+			<is_in_hosted_statistics/>
+		</product_info>
+		<reference_ids>
+			<reference_id name="BetradarCtrl" value="13701311"/>
+		</reference_ids>
+	</fixture>
+</fixtures_fixture>

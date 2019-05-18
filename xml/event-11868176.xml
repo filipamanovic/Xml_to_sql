@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<fixtures_fixture>
+	<fixture id="sr:match:11868176" liveodds="not_available" next_live_time="2017-09-23T14:00:00+00:00" scheduled="2017-09-23T14:00:00+00:00" start_time="2017-09-23T14:00:00+00:00" start_time_confirmed="true" start_time_tbd="false" status="closed">
+		<tournament_round betradar_id="2" group_long_name="Championship" number="9" type="group"/>
+		<season end_date="2018-05-27" id="sr:season:41266" name="Championship 17/18" start_date="2017-08-04" tournament_id="sr:tournament:18" year="17/18"/>
+		<tournament id="sr:tournament:18" name="Championship">
+			<sport id="sr:sport:1" name="Soccer"/>
+			<category country_code="ENG" id="sr:category:1" name="England"/>
+		</tournament>
+		<competitors>
+			<competitor abbreviation="BOL" country="England" country_code="ENG" gender="male" id="sr:competitor:5" name="Bolton Wanderers" qualifier="home">
+				<reference_ids>
+					<reference_id name="betradar" value="5990"/>
+					<reference_id name="aams" value="5"/>
+				</reference_ids>
+			</competitor>
+			<competitor abbreviation="BFC" country="England" country_code="ENG" gender="male" id="sr:competitor:50" name="Brentford FC" qualifier="away">
+				<reference_ids>
+					<reference_id name="betradar" value="7231210"/>
+					<reference_id name="aams" value="50"/>
+				</reference_ids>
+			</competitor>
+		</competitors>
+		<venue capacity="28723" city_name="Horwich" country_code="ENG" country_name="England" id="sr:venue:733" map_coordinates="53.580711,-2.536689" name="University of Bolton Stadium"/>
+		<extra_info>
+			<info key="neutral_ground" value="false"/>
+			<info key="period_length" value="45"/>
+			<info key="overtime_length" value="15"/>
+			<info key="coverage_source" value="venue"/>
+			<info key="extended_live_markets_offered" value="false"/>
+		</extra_info>
+		<coverage_info level="bronze" live_coverage="false">
+			<coverage includes="basic_score"/>
+		</coverage_info>
+		<product_info>
+			<is_in_hosted_statistics/>
+		</product_info>
+		<reference_ids>
+			<reference_id name="BetradarCtrl" value="13321927"/>
+		</reference_ids>
+	</fixture>
+</fixtures_fixture>

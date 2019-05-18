@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<fixtures_fixture>
+	<fixture id="sr:match:12569214" liveodds="not_available" next_live_time="2017-09-23T15:00:00+00:00" scheduled="2017-09-23T15:00:00+00:00" start_time="2017-09-23T15:00:00+00:00" start_time_confirmed="true" start_time_tbd="false" status="closed">
+		<tournament_round betradar_id="3640" group_long_name="Botola" number="3" type="group"/>
+		<season end_date="2018-06-25" id="sr:season:45242" name="Botola 17/18" start_date="2017-09-08" tournament_id="sr:tournament:937" year="17/18"/>
+		<tournament id="sr:tournament:937" name="Botola">
+			<sport id="sr:sport:1" name="Soccer"/>
+			<category country_code="MAR" id="sr:category:303" name="Morocco"/>
+		</tournament>
+		<competitors>
+			<competitor abbreviation="RSB" country="Morocco" country_code="MAR" gender="male" id="sr:competitor:80395" name="Rsb Berkane" qualifier="home">
+				<reference_ids>
+					<reference_id name="betradar" value="6407489"/>
+				</reference_ids>
+			</competitor>
+			<competitor abbreviation="ODS" country="Morocco" country_code="MAR" gender="male" id="sr:competitor:55037" name="OCS Olympique de Safi" qualifier="away">
+				<reference_ids>
+					<reference_id name="betradar" value="609029"/>
+				</reference_ids>
+			</competitor>
+		</competitors>
+		<venue capacity="10000" city_name="Berkane" country_code="MAR" country_name="Morocco" id="sr:venue:9735" map_coordinates="34.927412,-2.326097" name="Stade Municipal de Berkane"/>
+		<extra_info>
+			<info key="neutral_ground" value="false"/>
+			<info key="period_length" value="45"/>
+			<info key="overtime_length" value="15"/>
+			<info key="coverage_source" value="tv"/>
+			<info key="extended_live_markets_offered" value="false"/>
+		</extra_info>
+		<coverage_info level="bronze" live_coverage="false">
+			<coverage includes="basic_score"/>
+		</coverage_info>
+		<product_info>
+			<is_in_hosted_statistics/>
+		</product_info>
+		<reference_ids>
+			<reference_id name="BetradarCtrl" value="13721507"/>
+		</reference_ids>
+	</fixture>
+</fixtures_fixture>

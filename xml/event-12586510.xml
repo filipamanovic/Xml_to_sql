@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<fixtures_fixture>
+	<fixture id="sr:match:12586510" liveodds="not_available" next_live_time="2017-09-23T15:00:00+00:00" scheduled="2017-09-23T15:00:00+00:00" start_time="2017-09-23T15:00:00+00:00" start_time_confirmed="true" start_time_tbd="false" status="ended">
+		<tournament_round betradar_id="63648" group_long_name="Polish International (Is) 2017, Mixed Doubles" number="1" type="group"/>
+		<tournament id="sr:tournament:19798" name="Polish International (IS), XD">
+			<sport id="sr:sport:31" name="Badminton"/>
+			<category id="sr:category:259" name="International"/>
+		</tournament>
+		<competitors>
+			<competitor abbreviation="EKE" gender="male" id="sr:competitor:380358" name="Ekelund S / Stoffersen M" qualifier="home">
+				<reference_ids>
+					<reference_id name="betradar" value="9204722"/>
+				</reference_ids>
+			</competitor>
+			<competitor abbreviation="CLA" gender="mixed" id="sr:competitor:324713" name="Clare M / Williams V" qualifier="away">
+				<reference_ids>
+					<reference_id name="betradar" value="9507405"/>
+				</reference_ids>
+			</competitor>
+		</competitors>
+		<extra_info>
+			<info key="neutral_ground" value="false"/>
+			<info key="best_of" value="3"/>
+			<info key="coverage_source" value="venue"/>
+			<info key="extended_live_markets_offered" value="false"/>
+			<info key="set_limit" value="21"/>
+		</extra_info>
+		<product_info>
+			<streaming>
+				<channel id="3" name="Live Channel Online LIVE Match"/>
+			</streaming>
+		</product_info>
+		<reference_ids>
+			<reference_id name="BetradarCtrl" value="13852970"/>
+		</reference_ids>
+	</fixture>
+</fixtures_fixture>

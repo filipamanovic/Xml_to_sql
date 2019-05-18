@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<fixtures_fixture>
+	<fixture id="sr:match:11732961" liveodds="not_available" next_live_time="2017-09-23T13:00:00+00:00" scheduled="2017-09-23T13:00:00+00:00" start_time="2017-09-23T13:00:00+00:00" start_time_confirmed="true" start_time_tbd="false" status="closed">
+		<tournament_round betradar_id="7157" group_long_name="Thai League 1" number="29" type="group"/>
+		<season end_date="2017-12-31" id="sr:season:38830" name="Premier League 2017" start_date="2017-02-10" tournament_id="sr:tournament:1032" year="2017"/>
+		<tournament id="sr:tournament:1032" name="Premier League">
+			<sport id="sr:sport:1" name="Soccer"/>
+			<category country_code="THA" id="sr:category:485" name="Thailand"/>
+		</tournament>
+		<competitors>
+			<competitor abbreviation="NFC" country="Thailand" country_code="THA" gender="male" id="sr:competitor:189990" name="Navy Football Club" qualifier="home">
+				<reference_ids>
+					<reference_id name="betradar" value="1166237"/>
+				</reference_ids>
+			</competitor>
+			<competitor abbreviation="MUT" country="Thailand" country_code="THA" gender="male" id="sr:competitor:39946" name="Muang Thong United" qualifier="away">
+				<reference_ids>
+					<reference_id name="betradar" value="1511991"/>
+				</reference_ids>
+			</competitor>
+		</competitors>
+		<venue capacity="12500" city_name="Chonburi" country_code="THA" country_name="Thailand" id="sr:venue:15754" map_coordinates="12.663963,100.935661" name="Sattahip Navy Stadium"/>
+		<extra_info>
+			<info key="neutral_ground" value="false"/>
+			<info key="period_length" value="45"/>
+			<info key="overtime_length" value="15"/>
+			<info key="coverage_source" value="venue"/>
+			<info key="extended_live_markets_offered" value="false"/>
+		</extra_info>
+		<coverage_info level="bronze" live_coverage="false">
+			<coverage includes="basic_score"/>
+		</coverage_info>
+		<product_info>
+			<is_in_hosted_statistics/>
+		</product_info>
+		<reference_ids>
+			<reference_id name="BetradarCtrl" value="13495089"/>
+		</reference_ids>
+	</fixture>
+</fixtures_fixture>

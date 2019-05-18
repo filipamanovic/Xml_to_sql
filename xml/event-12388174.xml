@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<fixtures_fixture>
+	<fixture id="sr:match:12388174" liveodds="not_available" next_live_time="2017-09-23T14:00:00+00:00" scheduled="2017-09-23T14:00:00+00:00" start_time="2017-09-23T14:00:00+00:00" start_time_confirmed="true" start_time_tbd="false" status="closed">
+		<tournament_round betradar_id="3716" group_long_name="Superliga" number="4" type="group"/>
+		<season end_date="2018-06-19" id="sr:season:44784" name="Superliga 17/18" start_date="2017-09-01" tournament_id="sr:tournament:818" year="17/18"/>
+		<tournament id="sr:tournament:818" name="Superliga">
+			<sport id="sr:sport:6" name="Handball"/>
+			<category country_code="POL" id="sr:category:311" name="Poland"/>
+		</tournament>
+		<competitors>
+			<competitor abbreviation="PHS" country="Poland" country_code="POL" gender="male" id="sr:competitor:78567" name="Pogon Szczecin" qualifier="home">
+				<reference_ids>
+					<reference_id name="betradar" value="1528260"/>
+				</reference_ids>
+			</competitor>
+			<competitor abbreviation="POW" country="Poland" country_code="POL" gender="male" id="sr:competitor:54995" name="KS NMC Powen Zabrze" qualifier="away">
+				<reference_ids>
+					<reference_id name="betradar" value="5243157"/>
+				</reference_ids>
+			</competitor>
+		</competitors>
+		<venue capacity="700" city_name="Szczecin" country_code="POL" country_name="Poland" id="sr:venue:9427" map_coordinates="53.447010,14.545026" name="Hala Sportowa Typu Nrd"/>
+		<extra_info>
+			<info key="neutral_ground" value="false"/>
+			<info key="period_length" value="30"/>
+			<info key="overtime_length" value="5"/>
+			<info key="coverage_source" value="venue"/>
+			<info key="extended_live_markets_offered" value="false"/>
+		</extra_info>
+		<product_info>
+			<is_in_hosted_statistics/>
+		</product_info>
+		<reference_ids>
+			<reference_id name="BetradarCtrl" value="13706284"/>
+		</reference_ids>
+	</fixture>
+</fixtures_fixture>

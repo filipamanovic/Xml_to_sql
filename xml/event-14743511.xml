@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<fixtures_fixture>
+	<fixture id="sr:match:14743511" liveodds="not_available" next_live_time="2018-06-16T10:00:00+00:00" scheduled="2018-06-16T10:00:00+00:00" start_time="2018-06-16T10:00:00+00:00" start_time_confirmed="true" start_time_tbd="false" status="closed">
+		<tournament_round betradar_id="71236" name="semifinal" type="cup"/>
+		<season end_date="2018-06-17" id="sr:season:54327" name="2018 Itf Portugal 07A, Women Singles" start_date="2018-06-09" tournament_id="sr:tournament:16896" year="2018"/>
+		<tournament id="sr:tournament:16896" name="ITF Portugal 07A, Women Singles">
+			<sport id="sr:sport:5" name="Tennis"/>
+			<category id="sr:category:213" name="ITF Women"/>
+		</tournament>
+		<competitors>
+			<competitor abbreviation="RAD" country="Serbia" country_code="SRB" gender="female" id="sr:competitor:58267" name="Radanovic, Dejana" qualifier="home">
+				<reference_ids>
+					<reference_id name="betradar" value="5908548"/>
+				</reference_ids>
+			</competitor>
+			<competitor abbreviation="CEN" country="Turkey" country_code="TUR" gender="female" id="sr:competitor:134342" name="Cengiz, Berfu" qualifier="away">
+				<reference_ids>
+					<reference_id name="betradar" value="6985055"/>
+				</reference_ids>
+			</competitor>
+		</competitors>
+		<venue city_name="Obidos" country_code="PRT" country_name="Portugal" id="sr:venue:24188" name="Court 1"/>
+		<extra_info>
+			<info key="neutral_ground" value="true"/>
+			<info key="best_of" value="3"/>
+			<info key="surface" value="synthetic_outdoor"/>
+			<info key="coverage_source" value="venue"/>
+			<info key="extended_live_markets_offered" value="false"/>
+		</extra_info>
+		<product_info>
+			<is_in_live_score/>
+			<is_in_hosted_statistics/>
+			<links>
+				<link name="live_match_tracker" ref="https://cs.betradar.com/ls/widgets/?/betradar/en/Europe:Berlin/page/show#widget=widgets.lmts&amp;matchId=14743511"/>
+			</links>
+		</product_info>
+		<reference_ids>
+			<reference_id name="BetradarCtrl" value="15418211"/>
+		</reference_ids>
+	</fixture>
+</fixtures_fixture>

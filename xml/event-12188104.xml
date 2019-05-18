@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<fixtures_fixture>
+	<fixture id="sr:match:12188104" liveodds="not_available" next_live_time="2017-09-23T13:00:00+00:00" scheduled="2017-09-23T13:00:00+00:00" start_time="2017-09-23T13:00:00+00:00" start_time_confirmed="true" start_time_tbd="false" status="closed">
+		<tournament_round betradar_id="34" group_long_name="Serie B" number="6" type="group"/>
+		<season end_date="2018-06-30" id="sr:season:43004" name="Serie B 17/18" start_date="2017-08-25" tournament_id="sr:tournament:53" year="17/18"/>
+		<tournament id="sr:tournament:53" name="Serie B">
+			<sport id="sr:sport:1" name="Soccer"/>
+			<category country_code="ITA" id="sr:category:31" name="Italy"/>
+		</tournament>
+		<competitors>
+			<competitor abbreviation="NOV" country="Italy" country_code="ITA" gender="male" id="sr:competitor:2767" name="Novara Calcio" qualifier="home">
+				<reference_ids>
+					<reference_id name="betradar" value="5521669"/>
+					<reference_id name="aams" value="2767"/>
+				</reference_ids>
+			</competitor>
+			<competitor abbreviation="US " country="Italy" country_code="ITA" gender="male" id="sr:competitor:2730" name="US Avellino 1912" qualifier="away">
+				<reference_ids>
+					<reference_id name="betradar" value="239963"/>
+					<reference_id name="aams" value="2730"/>
+				</reference_ids>
+			</competitor>
+		</competitors>
+		<venue capacity="17875" city_name="Novara" country_code="ITA" country_name="Italy" id="sr:venue:2187" map_coordinates="45.435833,8.595833" name="Stadio Silvio Piola"/>
+		<extra_info>
+			<info key="neutral_ground" value="false"/>
+			<info key="period_length" value="45"/>
+			<info key="overtime_length" value="15"/>
+			<info key="coverage_source" value="tv"/>
+			<info key="extended_live_markets_offered" value="false"/>
+		</extra_info>
+		<coverage_info level="bronze" live_coverage="false">
+			<coverage includes="basic_score"/>
+		</coverage_info>
+		<product_info>
+			<is_in_hosted_statistics/>
+		</product_info>
+		<reference_ids>
+			<reference_id name="BetradarCtrl" value="13576206"/>
+		</reference_ids>
+	</fixture>
+</fixtures_fixture>

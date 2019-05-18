@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<fixtures_fixture>
+	<fixture id="sr:match:12373630" liveodds="not_available" next_live_time="2017-09-23T15:00:00+00:00" scheduled="2017-09-23T15:00:00+00:00" start_time="2017-09-23T15:00:00+00:00" start_time_confirmed="true" start_time_tbd="false" status="cancelled">
+		<tournament_round betradar_id="157" group_long_name="Asobal" number="3" type="group"/>
+		<tournament id="sr:tournament:248" name="Liga Asobal">
+			<sport id="sr:sport:6" name="Handball"/>
+			<category country_code="ESP" id="sr:category:71" name="Spain"/>
+		</tournament>
+		<competitors>
+			<competitor abbreviation="GRA" country="Spain" country_code="ESP" gender="male" id="sr:competitor:3978" name="Fraikin BM Granollers" qualifier="home">
+				<reference_ids>
+					<reference_id name="betradar" value="129105"/>
+				</reference_ids>
+			</competitor>
+			<competitor abbreviation="ATL" country="Spain" country_code="ESP" gender="male" id="sr:competitor:3966" name="Atletico Valladolid" qualifier="away">
+				<reference_ids>
+					<reference_id name="betradar" value="70673"/>
+				</reference_ids>
+			</competitor>
+		</competitors>
+		<venue capacity="6500" city_name="Granollers" country_code="ESP" country_name="Spain" id="sr:venue:6648" map_coordinates="41.598611,2.287778" name="Palau d'Esports de Granollers"/>
+		<extra_info>
+			<info key="neutral_ground" value="false"/>
+			<info key="period_length" value="30"/>
+			<info key="overtime_length" value="5"/>
+			<info key="coverage_source" value="venue"/>
+			<info key="extended_live_markets_offered" value="false"/>
+		</extra_info>
+		<reference_ids>
+			<reference_id name="BetradarCtrl" value="13693979"/>
+		</reference_ids>
+	</fixture>
+</fixtures_fixture>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<fixtures_fixture>
+	<fixture id="sr:match:12546716" liveodds="not_available" next_live_time="2017-09-23T14:15:00+00:00" scheduled="2017-09-23T14:15:00+00:00" start_time="2017-09-23T14:15:00+00:00" start_time_confirmed="true" start_time_tbd="false" status="closed">
+		<tournament_round betradar_id="1537" group_long_name="LKL" number="1" type="group"/>
+		<season end_date="2018-06-22" id="sr:season:45642" name="Lkl 17/18" start_date="2017-09-19" tournament_id="sr:tournament:975" year="17/18"/>
+		<tournament id="sr:tournament:975" name="LKL">
+			<sport id="sr:sport:2" name="Basketball"/>
+			<category country_code="LTU" id="sr:category:168" name="Lithuania"/>
+		</tournament>
+		<competitors>
+			<competitor abbreviation="JUV" gender="male" id="sr:competitor:49999" name="Juventus Utena" qualifier="home">
+				<reference_ids>
+					<reference_id name="betradar" value="1156881"/>
+					<reference_id name="aams" value="49999"/>
+				</reference_ids>
+			</competitor>
+			<competitor abbreviation="RYV" country="Lithuania" country_code="LTU" gender="male" id="sr:competitor:5858" name="Rytas Vilnius" qualifier="away">
+				<reference_ids>
+					<reference_id name="betradar" value="266550"/>
+					<reference_id name="aams" value="5858"/>
+				</reference_ids>
+			</competitor>
+		</competitors>
+		<venue capacity="2000" city_name="Utena" country_code="LTU" country_name="Lithuania" id="sr:venue:7096" map_coordinates="55.504200,25.591233" name="Utena Arena"/>
+		<extra_info>
+			<info key="neutral_ground" value="false"/>
+			<info key="period_length" value="10"/>
+			<info key="overtime_length" value="5"/>
+			<info key="coverage_source" value="venue"/>
+			<info key="extended_live_markets_offered" value="false"/>
+			<info key="streaming" value="true"/>
+		</extra_info>
+		<product_info>
+			<streaming>
+				<channel id="1" name="Live Channel Retail LIVE Match"/>
+				<channel id="3" name="Live Channel Online LIVE Match"/>
+			</streaming>
+			<is_in_hosted_statistics/>
+		</product_info>
+		<reference_ids>
+			<reference_id name="BetradarCtrl" value="13742796"/>
+		</reference_ids>
+	</fixture>
+</fixtures_fixture>

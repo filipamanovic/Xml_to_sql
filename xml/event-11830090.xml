@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<fixtures_fixture>
+	<fixture id="sr:match:11830090" liveodds="not_available" next_live_time="2017-09-23T14:00:00+00:00" scheduled="2017-09-23T14:00:00+00:00" start_time="2017-09-23T14:00:00+00:00" start_time_confirmed="true" start_time_tbd="false" status="closed">
+		<tournament_round betradar_id="1" group_long_name="Premier League" number="6" phase="regular season" type="group"/>
+		<season end_date="2018-05-14" id="sr:season:40942" name="Premier League 17/18" start_date="2017-08-11" tournament_id="sr:tournament:17" year="17/18"/>
+		<tournament id="sr:tournament:17" name="Premier League">
+			<sport id="sr:sport:1" name="Soccer"/>
+			<category country_code="ENG" id="sr:category:1" name="England"/>
+		</tournament>
+		<competitors>
+			<competitor abbreviation="BUR" country="England" country_code="ENG" gender="male" id="sr:competitor:6" name="Burnley FC" qualifier="home">
+				<reference_ids>
+					<reference_id name="betradar" value="1463748"/>
+				</reference_ids>
+			</competitor>
+			<competitor abbreviation="HUD" country="England" country_code="ENG" gender="male" id="sr:competitor:59" name="Huddersfield Town" qualifier="away">
+				<reference_ids>
+					<reference_id name="betradar" value="9773864"/>
+				</reference_ids>
+			</competitor>
+		</competitors>
+		<venue capacity="21401" city_name="Burnley" country_code="ENG" country_name="England" id="sr:venue:806" map_coordinates="53.789167,-2.230278" name="Turf Moor"/>
+		<extra_info>
+			<info key="neutral_ground" value="false"/>
+			<info key="period_length" value="45"/>
+			<info key="overtime_length" value="15"/>
+			<info key="coverage_source" value="tv"/>
+			<info key="extended_live_markets_offered" value="false"/>
+		</extra_info>
+		<coverage_info covered_from="tv" level="platinum" live_coverage="true">
+			<coverage includes="basic_score"/>
+			<coverage includes="key_events"/>
+			<coverage includes="detailed_events"/>
+			<coverage includes="lineups"/>
+			<coverage includes="passes_and_duels"/>
+			<coverage includes="commentary"/>
+			<coverage includes="extended_markets"/>
+		</coverage_info>
+		<product_info>
+			<streaming>
+				<channel id="2" name="Live Channel Retail LIVE Visualisation"/>
+			</streaming>
+			<is_in_hosted_statistics/>
+		</product_info>
+		<reference_ids>
+			<reference_id name="BetradarCtrl" value="13276480"/>
+		</reference_ids>
+	</fixture>
+</fixtures_fixture>

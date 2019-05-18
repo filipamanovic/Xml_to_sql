@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<fixtures_fixture>
+	<fixture id="sr:match:12586482" liveodds="not_available" next_live_time="2017-09-23T15:00:00+00:00" scheduled="2017-09-23T15:00:00+00:00" start_time="2017-09-23T15:00:00+00:00" start_time_confirmed="true" start_time_tbd="false" status="ended">
+		<tournament_round betradar_id="63624" group_long_name="Internacional Mexicano (Is) 2017, Women" number="1" type="group"/>
+		<tournament id="sr:simple_tournament:63624" name="Internacional Mexicano (Is) 2017, Women">
+			<sport id="sr:sport:31" name="Badminton"/>
+			<category id="sr:category:259" name="International"/>
+		</tournament>
+		<competitors>
+			<competitor abbreviation="MAC" country="Peru" country_code="PER" gender="female" id="sr:competitor:166922" name="Macias, Daniela" qualifier="home">
+				<reference_ids>
+					<reference_id name="betradar" value="7145200"/>
+				</reference_ids>
+			</competitor>
+			<competitor abbreviation="ZHO" country="USA" country_code="USA" gender="female" id="sr:competitor:305830" name="Zhong, Isabel" qualifier="away">
+				<reference_ids>
+					<reference_id name="betradar" value="9352473"/>
+				</reference_ids>
+			</competitor>
+		</competitors>
+		<extra_info>
+			<info key="neutral_ground" value="true"/>
+			<info key="best_of" value="3"/>
+			<info key="coverage_source" value="venue"/>
+			<info key="extended_live_markets_offered" value="false"/>
+			<info key="set_limit" value="21"/>
+		</extra_info>
+		<reference_ids>
+			<reference_id name="BetradarCtrl" value="13851363"/>
+		</reference_ids>
+	</fixture>
+</fixtures_fixture>

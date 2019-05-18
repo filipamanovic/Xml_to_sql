@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<fixtures_fixture>
+	<fixture id="sr:match:12514748" liveodds="not_available" next_live_time="2017-09-23T14:00:00+00:00" scheduled="2017-09-23T14:00:00+00:00" start_time="2017-09-23T14:00:00+00:00" start_time_confirmed="true" start_time_tbd="false" status="closed">
+		<tournament_round betradar_id="9234" group="A" group_id="sr:group:28378" group_long_name="European Championship Women, Pool A" number="1" type="group"/>
+		<season end_date="2017-10-02" id="sr:season:45584" name="European Ch.ship Women 2017" start_date="2017-09-22" tournament_id="sr:tournament:623" year="2017"/>
+		<tournament id="sr:tournament:623" name="European Ch.ship Women">
+			<sport id="sr:sport:23" name="Volleyball"/>
+			<category id="sr:category:136" name="International"/>
+		</tournament>
+		<competitors>
+			<competitor abbreviation="POL" country="Poland" country_code="POL" gender="female" id="sr:competitor:6719" name="Poland" qualifier="home">
+				<reference_ids>
+					<reference_id name="betradar" value="260379"/>
+				</reference_ids>
+			</competitor>
+			<competitor abbreviation="HUN" country="Hungary" country_code="HUN" gender="female" id="sr:competitor:6707" name="Hungary" qualifier="away">
+				<reference_ids>
+					<reference_id name="betradar" value="216193"/>
+				</reference_ids>
+			</competitor>
+		</competitors>
+		<extra_info>
+			<info key="neutral_ground" value="true"/>
+			<info key="best_of" value="5"/>
+			<info key="coverage_source" value="venue"/>
+			<info key="extended_live_markets_offered" value="false"/>
+			<info key="streaming" value="true"/>
+			<info key="set_limit" value="25"/>
+		</extra_info>
+		<product_info>
+			<streaming>
+				<channel id="1" name="Live Channel Retail LIVE Match"/>
+				<channel id="3" name="Live Channel Online LIVE Match"/>
+			</streaming>
+			<is_in_hosted_statistics/>
+		</product_info>
+		<reference_ids>
+			<reference_id name="BetradarCtrl" value="13719525"/>
+		</reference_ids>
+	</fixture>
+</fixtures_fixture>

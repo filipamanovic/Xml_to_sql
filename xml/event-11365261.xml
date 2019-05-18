@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<fixtures_fixture>
+	<fixture id="sr:match:11365261" liveodds="not_available" next_live_time="2017-09-23T13:00:00+00:00" scheduled="2017-09-23T13:00:00+00:00" start_time="2017-09-23T13:00:00+00:00" start_time_confirmed="true" start_time_tbd="false" status="closed">
+		<tournament_round betradar_id="618" group_long_name="Premium Liiga" number="31" type="group"/>
+		<season end_date="2017-11-20" id="sr:season:38570" name="Premium Liiga 2017" start_date="2017-03-02" tournament_id="sr:tournament:178" year="2017"/>
+		<tournament id="sr:tournament:178" name="Premium Liiga">
+			<sport id="sr:sport:1" name="Soccer"/>
+			<category country_code="EST" id="sr:category:92" name="Estonia"/>
+		</tournament>
+		<competitors>
+			<competitor abbreviation="NKA" country="Estonia" country_code="EST" gender="male" id="sr:competitor:8091" name="Nomme Kalju FC" qualifier="home">
+				<reference_ids>
+					<reference_id name="betradar" value="1166703"/>
+				</reference_ids>
+			</competitor>
+			<competitor abbreviation="VAP" country="Estonia" country_code="EST" gender="male" id="sr:competitor:318005" name="Parnu JK Vaprus" qualifier="away">
+				<reference_ids>
+					<reference_id name="betradar" value="9410671"/>
+				</reference_ids>
+			</competitor>
+		</competitors>
+		<venue capacity="1000" city_name="Tallinn" country_code="EST" country_name="Estonia" id="sr:venue:3551" map_coordinates="59.385456,24.659603" name="Hiiu Kunstmurustaadion"/>
+		<extra_info>
+			<info key="neutral_ground" value="false"/>
+			<info key="period_length" value="45"/>
+			<info key="overtime_length" value="15"/>
+			<info key="coverage_source" value="venue"/>
+			<info key="extended_live_markets_offered" value="false"/>
+			<info key="streaming" value="true"/>
+		</extra_info>
+		<coverage_info level="bronze" live_coverage="false">
+			<coverage includes="basic_score"/>
+		</coverage_info>
+		<product_info>
+			<streaming>
+				<channel id="1" name="Live Channel Retail LIVE Match"/>
+				<channel id="3" name="Live Channel Online LIVE Match"/>
+			</streaming>
+			<is_in_hosted_statistics/>
+		</product_info>
+		<reference_ids>
+			<reference_id name="BetradarCtrl" value="13495065"/>
+		</reference_ids>
+	</fixture>
+</fixtures_fixture>

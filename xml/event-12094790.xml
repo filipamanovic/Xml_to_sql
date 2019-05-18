@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<fixtures_fixture>
+	<fixture id="sr:match:12094790" liveodds="not_available" next_live_time="2017-09-23T14:15:00+00:00" scheduled="2017-09-23T14:15:00+00:00" start_time="2017-09-23T14:15:00+00:00" start_time_confirmed="true" start_time_tbd="false" status="closed">
+		<tournament_round betradar_id="46113" group_long_name="Super League, Super 8S" number="30" type="group"/>
+		<season end_date="2017-10-08" id="sr:season:35996" name="Super League 2017" start_date="2017-02-07" tournament_id="sr:tournament:302" year="2017"/>
+		<tournament id="sr:tournament:302" name="Super League">
+			<sport id="sr:sport:12" name="Rugby"/>
+			<category id="sr:category:83" name="Rugby League"/>
+		</tournament>
+		<competitors>
+			<competitor abbreviation="WAK" gender="male" id="sr:competitor:4273" name="Wakefield Trinity" qualifier="home">
+				<reference_ids>
+					<reference_id name="betradar" value="89649"/>
+				</reference_ids>
+			</competitor>
+			<competitor abbreviation="WGW" gender="male" id="sr:competitor:4233" name="Wigan Warriors" qualifier="away">
+				<reference_ids>
+					<reference_id name="betradar" value="89683"/>
+				</reference_ids>
+			</competitor>
+		</competitors>
+		<venue capacity="5333" city_name="Wakefield" country_code="ENG" country_name="England" id="sr:venue:8913" map_coordinates="53.669778,-1.479504" name="The Mobile Rocket Stadium"/>
+		<extra_info>
+			<info key="neutral_ground" value="false"/>
+			<info key="overtime_length" value="5"/>
+			<info key="coverage_source" value="tv"/>
+			<info key="extended_live_markets_offered" value="true"/>
+		</extra_info>
+		<product_info>
+			<is_in_hosted_statistics/>
+		</product_info>
+		<reference_ids>
+			<reference_id name="BetradarCtrl" value="13506247"/>
+		</reference_ids>
+	</fixture>
+</fixtures_fixture>

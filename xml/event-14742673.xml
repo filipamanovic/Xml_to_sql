@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<fixtures_fixture>
+	<fixture id="sr:match:14742673" liveodds="not_available" next_live_time="2018-06-16T08:10:00+00:00" scheduled="2018-06-16T08:00:00+00:00" start_time="2018-06-16T08:00:00+00:00" start_time_confirmed="true" start_time_tbd="false" status="closed">
+		<tournament_round betradar_id="71239" name="final" type="cup"/>
+		<season end_date="2018-06-16" id="sr:season:54301" name="2018 Itf Czech Republic 04A, Women Singles" start_date="2018-06-09" tournament_id="sr:tournament:16566" year="2018"/>
+		<tournament id="sr:tournament:16566" name="ITF Czech Republic 04A, Women Singles">
+			<sport id="sr:sport:5" name="Tennis"/>
+			<category id="sr:category:213" name="ITF Women"/>
+		</tournament>
+		<competitors>
+			<competitor abbreviation="PAN" country="Czech Republic" country_code="CZE" gender="female" id="sr:competitor:108615" name="Pantuckova, Magdalena" qualifier="home">
+				<reference_ids>
+					<reference_id name="betradar" value="6730962"/>
+				</reference_ids>
+			</competitor>
+			<competitor abbreviation="PAN" country="Czech Republic" country_code="CZE" gender="female" id="sr:competitor:83095" name="Pantuckova, Gabriela" qualifier="away">
+				<reference_ids>
+					<reference_id name="betradar" value="6337379"/>
+				</reference_ids>
+			</competitor>
+		</competitors>
+		<venue city_name="Prerov" country_code="CZE" country_name="Czech Republic" id="sr:venue:30359" name="Court 6"/>
+		<extra_info>
+			<info key="neutral_ground" value="true"/>
+			<info key="best_of" value="3"/>
+			<info key="surface" value="red_clay"/>
+			<info key="coverage_source" value="venue"/>
+			<info key="extended_live_markets_offered" value="false"/>
+		</extra_info>
+		<product_info>
+			<is_in_live_score/>
+			<is_in_hosted_statistics/>
+			<links>
+				<link name="live_match_tracker" ref="https://cs.betradar.com/ls/widgets/?/betradar/en/Europe:Berlin/page/show#widget=widgets.lmts&amp;matchId=14742673"/>
+			</links>
+		</product_info>
+		<reference_ids>
+			<reference_id name="BetradarCtrl" value="15416900"/>
+		</reference_ids>
+	</fixture>
+</fixtures_fixture>

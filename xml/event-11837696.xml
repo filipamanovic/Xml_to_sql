@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<fixtures_fixture>
+	<fixture id="sr:match:11837696" liveodds="not_available" next_live_time="2017-09-23T14:00:00+00:00" scheduled="2017-09-23T14:00:00+00:00" start_time="2017-09-23T14:00:00+00:00" start_time_confirmed="true" start_time_tbd="false" status="closed">
+		<tournament_round betradar_id="12" group_long_name="Superligaen" number="10" type="group"/>
+		<season end_date="2018-07-01" id="sr:season:40936" name="Superligaen 17/18" start_date="2017-07-12" tournament_id="sr:tournament:39" year="17/18"/>
+		<tournament id="sr:tournament:39" name="Superligaen">
+			<sport id="sr:sport:1" name="Soccer"/>
+			<category country_code="DNK" id="sr:category:8" name="Denmark"/>
+		</tournament>
+		<competitors>
+			<competitor abbreviation="HOR" country="Denmark" country_code="DNK" gender="male" id="sr:competitor:1297" name="AC Horsens" qualifier="home">
+				<reference_ids>
+					<reference_id name="betradar" value="507324"/>
+				</reference_ids>
+			</competitor>
+			<competitor abbreviation="HEL" country="Denmark" country_code="DNK" gender="male" id="sr:competitor:6392" name="FC Helsingoer" qualifier="away">
+				<reference_ids>
+					<reference_id name="betradar" value="9731317"/>
+				</reference_ids>
+			</competitor>
+		</competitors>
+		<venue capacity="10400" city_name="Horsens" country_code="DNK" country_name="Denmark" id="sr:venue:1159" map_coordinates="55.871600,9.857090" name="CASA Arena"/>
+		<extra_info>
+			<info key="neutral_ground" value="false"/>
+			<info key="period_length" value="45"/>
+			<info key="overtime_length" value="15"/>
+			<info key="coverage_source" value="tv"/>
+			<info key="extended_live_markets_offered" value="false"/>
+		</extra_info>
+		<coverage_info level="bronze" live_coverage="false">
+			<coverage includes="basic_score"/>
+		</coverage_info>
+		<product_info>
+			<is_in_hosted_statistics/>
+		</product_info>
+		<reference_ids>
+			<reference_id name="BetradarCtrl" value="13500579"/>
+		</reference_ids>
+	</fixture>
+</fixtures_fixture>

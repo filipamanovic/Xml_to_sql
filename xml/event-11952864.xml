@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<fixtures_fixture>
+	<fixture id="sr:match:11952864" liveodds="not_available" next_live_time="2017-09-23T15:00:00+00:00" scheduled="2017-09-23T15:00:00+00:00" start_time="2017-09-23T15:00:00+00:00" start_time_confirmed="true" start_time_tbd="false" status="closed">
+		<tournament_round betradar_id="48" group=" " group_id="sr:group:26700" group_long_name="1. HNL" number="10" type="group"/>
+		<season end_date="2018-06-06" id="sr:season:41830" name="1. HNL 17/18" start_date="2017-07-14" tournament_id="sr:tournament:170" year="17/18"/>
+		<tournament id="sr:tournament:170" name="1. HNL">
+			<sport id="sr:sport:1" name="Soccer"/>
+			<category country_code="HRV" id="sr:category:14" name="Croatia"/>
+		</tournament>
+		<competitors>
+			<competitor abbreviation="HNK" country="Croatia" country_code="HRV" gender="male" id="sr:competitor:2031" name="HNK Cibalia Vinkovci" qualifier="home">
+				<reference_ids>
+					<reference_id name="betradar" value="7994"/>
+				</reference_ids>
+			</competitor>
+			<competitor abbreviation="IZA" country="Croatia" country_code="HRV" gender="male" id="sr:competitor:2045" name="NK Inter Zapresic" qualifier="away">
+				<reference_ids>
+					<reference_id name="betradar" value="228059"/>
+					<reference_id name="aams" value="2045"/>
+				</reference_ids>
+			</competitor>
+		</competitors>
+		<venue capacity="10000" city_name="Vinkovci" country_code="HRV" country_name="Croatia" id="sr:venue:1268" map_coordinates="45.283742,18.797382" name="Cibalia Stadion"/>
+		<extra_info>
+			<info key="neutral_ground" value="false"/>
+			<info key="period_length" value="45"/>
+			<info key="overtime_length" value="15"/>
+			<info key="coverage_source" value="venue"/>
+			<info key="extended_live_markets_offered" value="false"/>
+		</extra_info>
+		<coverage_info level="bronze" live_coverage="false">
+			<coverage includes="basic_score"/>
+		</coverage_info>
+		<product_info>
+			<is_in_hosted_statistics/>
+		</product_info>
+		<reference_ids>
+			<reference_id name="BetradarCtrl" value="13496385"/>
+		</reference_ids>
+	</fixture>
+</fixtures_fixture>

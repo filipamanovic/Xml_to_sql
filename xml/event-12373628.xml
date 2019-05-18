@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<fixtures_fixture>
+	<fixture id="sr:match:12373628" liveodds="not_available" next_live_time="2017-09-23T15:00:00+00:00" scheduled="2017-09-23T15:00:00+00:00" start_time="2017-09-23T15:00:00+00:00" start_time_confirmed="true" start_time_tbd="false" status="closed">
+		<tournament_round betradar_id="157" group_long_name="Asobal" number="3" type="group"/>
+		<season end_date="2018-05-28" id="sr:season:44622" name="Liga Asobal 17/18" start_date="2017-09-06" tournament_id="sr:tournament:248" year="17/18"/>
+		<tournament id="sr:tournament:248" name="Liga Asobal">
+			<sport id="sr:sport:6" name="Handball"/>
+			<category country_code="ESP" id="sr:category:71" name="Spain"/>
+		</tournament>
+		<competitors>
+			<competitor abbreviation="FMC" country="Spain" country_code="ESP" gender="male" id="sr:competitor:3976" name="Frig Morrazo Cangas" qualifier="home">
+				<reference_ids>
+					<reference_id name="betradar" value="129101"/>
+				</reference_ids>
+			</competitor>
+			<competitor abbreviation="CB " country="Spain" country_code="ESP" gender="male" id="sr:competitor:6265" name="Cb Ciudad de Logrono" qualifier="away">
+				<reference_ids>
+					<reference_id name="betradar" value="820105"/>
+				</reference_ids>
+			</competitor>
+		</competitors>
+		<venue capacity="2000" city_name="Cangas do Morrazo" country_code="ESP" country_name="Spain" id="sr:venue:9837" map_coordinates="42.255153,-8.797233" name="Centro de Estudios Cangas"/>
+		<extra_info>
+			<info key="neutral_ground" value="false"/>
+			<info key="period_length" value="30"/>
+			<info key="overtime_length" value="5"/>
+			<info key="coverage_source" value="venue"/>
+			<info key="extended_live_markets_offered" value="false"/>
+			<info key="streaming" value="true"/>
+		</extra_info>
+		<product_info>
+			<streaming>
+				<channel id="1" name="Live Channel Retail LIVE Match"/>
+			</streaming>
+			<is_in_hosted_statistics/>
+		</product_info>
+		<reference_ids>
+			<reference_id name="BetradarCtrl" value="13693978"/>
+		</reference_ids>
+	</fixture>
+</fixtures_fixture>

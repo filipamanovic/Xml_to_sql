@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<fixtures_fixture>
+	<fixture id="sr:match:12138598" liveodds="not_available" next_live_time="2017-09-23T14:00:00+00:00" scheduled="2017-09-23T14:00:00+00:00" start_time="2017-09-23T14:00:00+00:00" start_time_confirmed="true" start_time_tbd="false" status="closed">
+		<tournament_round betradar_id="673" group_long_name="KHL" number="1" type="group"/>
+		<season end_date="2018-05-06" id="sr:season:42884" name="KHL 17/18" start_date="2017-08-21" tournament_id="sr:tournament:268" year="17/18"/>
+		<tournament id="sr:tournament:268" name="KHL">
+			<sport id="sr:sport:4" name="Ice Hockey"/>
+			<category country_code="RUS" id="sr:category:101" name="Russia"/>
+		</tournament>
+		<competitors>
+			<competitor abbreviation="VIT" country="Russia" country_code="RUS" gender="male" id="sr:competitor:5606" name="Vityaz Podolsk" qualifier="home">
+				<reference_ids>
+					<reference_id name="betradar" value="597028"/>
+				</reference_ids>
+			</competitor>
+			<competitor abbreviation="SLO" country="Slovakia" country_code="SVK" gender="male" id="sr:competitor:3927" name="Slovan Bratislava" qualifier="away">
+				<reference_ids>
+					<reference_id name="betradar" value="6254444"/>
+				</reference_ids>
+			</competitor>
+		</competitors>
+		<venue capacity="5500" city_name="Podolsk" country_code="RUS" country_name="Russia" id="sr:venue:9987" map_coordinates="55.420275,37.515778" name="Vityaz Ice Palace"/>
+		<extra_info>
+			<info key="neutral_ground" value="false"/>
+			<info key="period_length" value="20"/>
+			<info key="overtime_length" value="5"/>
+			<info key="coverage_source" value="venue"/>
+			<info key="extended_live_markets_offered" value="false"/>
+		</extra_info>
+		<product_info>
+			<is_in_hosted_statistics/>
+		</product_info>
+		<reference_ids>
+			<reference_id name="BetradarCtrl" value="13537085"/>
+		</reference_ids>
+	</fixture>
+</fixtures_fixture>
