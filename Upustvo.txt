@@ -1,0 +1,8 @@
+Korišcen programski jezik c# .net core. Za bazu podataka korišcen Microsoft Sql Server.
+Baza kreirana pomocu Entity Framework Core - code first.
+
+1. U Server Exploreru povezati se na bazu. (Ja sam koristio Sql Server Management Studio).
+2. Dobijeni konekcioni string u Properties tabu kopirati u projekat DataAccess klasa Context metod OnConfiguring.
+3. Pokrenuti NuGet Package Manager Console, za Default project izabrati DataAccess i ukucati komandu update-database.
+4. Startovati ConsoleApp u prvom inputu uneti punu putanju do fajla sa sport tagovima 
+(puna putanja sa nazivom fajla i ekstenzijom). U drugom inputu uneti putanju do foldera koji sadrzi events-*xml.

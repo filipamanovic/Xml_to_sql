@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20190429122353_initial_sport_table_only.cs" />
+    <Compile Remove="Migrations\20190429122353_initial_sport_table_only.Designer.cs" />
+    <Compile Remove="Migrations\20190429122929_initial_sport_table_only.cs" />
+    <Compile Remove="Migrations\20190429122929_initial_sport_table_only.Designer.cs" />
+    <Compile Remove="Migrations\20190429123016_initial_sport_table_only.cs" />
+    <Compile Remove="Migrations\20190429123016_initial_sport_table_only.Designer.cs" />
+    <Compile Remove="Migrations\20190430111926_added_event.cs" />
+    <Compile Remove="Migrations\20190430111926_added_event.Designer.cs" />
+    <Compile Remove="Migrations\20190430112130_added_event.cs" />
+    <Compile Remove="Migrations\20190430112130_added_event.Designer.cs" />
+    <Compile Remove="Migrations\20190430112300_added_event.cs" />
+    <Compile Remove="Migrations\20190430112300_added_event.Designer.cs" />
+    <Compile Remove="Migrations\20190430113104_added_event.cs" />
+    <Compile Remove="Migrations\20190430113104_added_event.Designer.cs" />
+    <Compile Remove="Migrations\20190430113321_added_event.cs" />
+    <Compile Remove="Migrations\20190430113321_added_event.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.0.0-preview4.19216.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.0.0-preview4.19216.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.0.0-preview4.19216.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.0.0-preview4.19216.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
